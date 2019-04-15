@@ -11,7 +11,6 @@ library(dplyr)
 sc <- spark_connect(method = "databricks")
 
 #suppressMessages(library(SparkR))
-#suppressMessages(library(magrittr))
 
 ## sparklyr requires creating a connection to Spark first
 sc <- spark_connect(method = "databricks")
